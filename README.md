@@ -1,13 +1,14 @@
 # 🚀 Cadastro de Usuários - API REST
 
 API CRUD desenvolvida com Spring Boot para gerenciamento de usuários.
-Projeto focado em prática de desenvolvimento backend, integração com banco de dados e boas práticas com JPA.
+
+Este projeto foi criado com foco em aprendizado de desenvolvimento backend, utilizando conceitos de API REST, persistência de dados com JPA e testes com banco em memória.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-* Java 21+
+* Java 24
 * Spring Boot
 * Spring Data JPA
 * H2 Database
@@ -29,11 +30,11 @@ Projeto focado em prática de desenvolvimento backend, integração com banco de
 ## ▶️ Como executar o projeto
 
 ```bash
-# Clonar repositório
-git clone https://github.com/SEU-USUARIO/SEU-REPO.git
+# Clonar o repositório
+git clone https://github.com/drini11/cadastro-usuario.git
 
 # Entrar na pasta
-cd SEU-REPO
+cd cadastro-usuario
 
 # Rodar o projeto
 ./mvnw spring-boot:run
@@ -57,33 +58,16 @@ http://localhost:8080/h2-console
 
 Configuração padrão:
 
-* JDBC URL: `jdbc:h2:mem:testdb`
+* JDBC URL: `jdbc:h2:mem:usuario`
 * User: `sa`
 * Password: *(vazio)*
 
 ---
 
-## 📡 Endpoints da API
 
-### ➕ Criar usuário
+## 📚 Créditos e aprendizado
 
-POST `/usuarios`
-
-### 📄 Listar usuários
-
-GET `/usuarios`
-
-### 🔍 Buscar por ID
-
-GET `/usuarios/{id}`
-
-### ✏️ Atualizar usuário
-
-PUT `/usuarios/{id}`
-
-### ❌ Deletar usuário
-
-DELETE `/usuarios/{id}`
+Projeto desenvolvido com base em uma videoaula do canal Javanauta no YouTube, com o objetivo de estudo e prática.
 
 ---
 
@@ -91,16 +75,11 @@ DELETE `/usuarios/{id}`
 
 * 🔐 Implementar autenticação com Spring Security
 * 🐳 Dockerizar aplicação
-* 🗄️ Migrar para banco PostgreSQL
+* 🗄️ Utilizar banco de dados PostgreSQL
 * 📄 Documentação com Swagger
 
 ---
 
 ## 👨‍💻 Autor
 
-## 📚 Créditos
-
-Este projeto foi desenvolvido com base em uma videoaula do canal Javanauta no YouTube, com o objetivo de estudo e prática de desenvolvimento backend com Spring Boot.
-
-Algumas adaptações e ajustes foram feitos durante o desenvolvimento para melhor compreensão dos conceitos.
-
+Desenvolvido por João Pedro Pizarro Buldrini
